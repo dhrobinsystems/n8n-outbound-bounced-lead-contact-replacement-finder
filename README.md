@@ -18,6 +18,8 @@ It ships safe by default. `DRY_RUN=true` and `SANDBOX_MODE=true` out of the box,
 
 ## Architecture
 
+![n8n Outbound Bounced Lead Contact Replacement Finder Workflow](./assets/bounce-replacement-workflow.png)
+
 ```
  Smartlead / Instantly                          Clay table (async, optional)
  bounce webhook                                 callback webhook
