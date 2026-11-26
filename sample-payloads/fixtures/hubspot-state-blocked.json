@@ -1,0 +1,47 @@
+{
+  "source": "fixture",
+  "truncated": false,
+  "contacts": [
+    {
+      "id": "zzz_test_hs_501",
+      "properties": {
+        "email": "zzz_test_morgan.hale@acme-corp.example",
+        "firstname": "zzz_TEST_Morgan",
+        "lastname": "Hale",
+        "jobtitle": "Director of Revenue Operations",
+        "lifecyclestage": "lead"
+      }
+    },
+    {
+      "id": "zzz_test_hs_502",
+      "properties": {
+        "email": "zzz_test_dana.ross@acme-corp.example",
+        "jobtitle": "Head of Revenue Operations",
+        "lifecyclestage": "lead",
+        "outbound_replacement_of": "zzz_test_old.contact1@acme-corp.example",
+        "outbound_replacement_generation": "1"
+      }
+    },
+    {
+      "id": "zzz_test_hs_503",
+      "properties": {
+        "email": "zzz_test_lee.park@acme-corp.example",
+        "jobtitle": "Sales Operations Manager",
+        "lifecyclestage": "lead",
+        "outbound_replacement_of": "zzz_test_old.contact2@acme-corp.example",
+        "outbound_replacement_generation": "1"
+      }
+    }
+  ],
+  "companies": [
+    {
+      "id": "zzz_test_hs_co_1",
+      "properties": {
+        "name": "zzz_TEST_Acme Corp",
+        "domain": "acme-corp.example",
+        "lifecyclestage": "salesqualifiedlead",
+        "hs_num_open_deals": "1"
+      }
+    }
+  ]
+}

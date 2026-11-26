@@ -1,0 +1,49 @@
+{
+  "_comment": "Synthetic Apollo fixture for `mirror-cli.js simulate --apollo`. `people` mimics mixed_people/api_search (no emails), `matches` mimics people/bulk_match.",
+  "people": [
+    {
+      "id": "zzz_test_apl_101",
+      "first_name": "zzz_TEST_Sam",
+      "last_name_obfuscated": "Re***s",
+      "title": "Director of Revenue Operations",
+      "has_email": true,
+      "organization": { "name": "zzz_TEST_Acme Corp", "primary_domain": "acme-corp.example" }
+    },
+    {
+      "id": "zzz_test_apl_102",
+      "first_name": "zzz_TEST_Taylor",
+      "last_name_obfuscated": "Br***n",
+      "title": "Head of Revenue Operations",
+      "has_email": true,
+      "organization": { "name": "zzz_TEST_Acme Corp", "primary_domain": "acme-corp.example" }
+    },
+    {
+      "id": "zzz_test_apl_103",
+      "first_name": "zzz_TEST_Alex",
+      "last_name_obfuscated": "Ki***m",
+      "title": "Account Executive",
+      "has_email": true,
+      "organization": { "name": "zzz_TEST_Acme Corp", "primary_domain": "acme-corp.example" }
+    }
+  ],
+  "matches": [
+    {
+      "id": "zzz_test_apl_101",
+      "first_name": "zzz_TEST_Sam",
+      "last_name": "Reyes",
+      "title": "Director of Revenue Operations",
+      "email": "zzz_test_sam.reyes@acme-corp.example",
+      "email_status": "guessed",
+      "organization": { "primary_domain": "acme-corp.example" }
+    },
+    {
+      "id": "zzz_test_apl_102",
+      "first_name": "zzz_TEST_Taylor",
+      "last_name": "Brown",
+      "title": "Head of Revenue Operations",
+      "email": "zzz_test_taylor.brown@acme-corp.example",
+      "email_status": "verified",
+      "organization": { "primary_domain": "acme-corp.example" }
+    }
+  ]
+}
