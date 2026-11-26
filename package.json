@@ -1,0 +1,39 @@
+{
+  "name": "n8n-outbound-bounced-lead-contact-replacement-finder",
+  "version": "1.0.0",
+  "description": "n8n workflow plus a zero-dependency Node.js mirror that replaces hard-bounced outbound contacts with a verified peer at the same company, with suppression and loop guards.",
+  "license": "MIT",
+  "author": "dhRobin Systems",
+  "private": true,
+  "type": "commonjs",
+  "main": "mirror-cli.js",
+  "bin": {
+    "bounce-mirror": "./mirror-cli.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node mirror-cli.js test",
+    "parity": "node mirror-cli.js parity",
+    "build:workflow": "node scripts/build-workflow.js && node mirror-cli.js parity",
+    "simulate:smartlead": "node mirror-cli.js simulate sample-payloads/smartlead-hard-bounce.json",
+    "simulate:instantly": "node mirror-cli.js simulate sample-payloads/instantly-hard-bounce.json",
+    "simulate:blocked": "node mirror-cli.js simulate sample-payloads/smartlead-hard-bounce.json --hubspot sample-payloads/fixtures/hubspot-state-blocked.json",
+    "send:smartlead": "node mirror-cli.js send sample-payloads/smartlead-hard-bounce.json",
+    "send:instantly": "node mirror-cli.js send sample-payloads/instantly-hard-bounce.json"
+  },
+  "keywords": [
+    "n8n",
+    "outbound",
+    "smartlead",
+    "instantly",
+    "apollo",
+    "clay",
+    "hubspot",
+    "bounce-handling",
+    "revops"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
