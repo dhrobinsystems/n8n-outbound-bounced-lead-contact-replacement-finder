@@ -1,0 +1,32 @@
+{
+  "event_type": "EMAIL_BOUNCE",
+  "event_timestamp": "2026-11-26T08:42:17.000Z",
+  "campaign_id": 900001,
+  "campaign_name": "zzz_TEST_Q4 RevOps Outbound",
+  "campaign_status": "ACTIVE",
+  "sl_email_lead_id": 700001,
+  "sl_email_lead_map_id": 710001,
+  "sl_lead_email": "zzz_test_morgan.hale@acme-corp.example",
+  "to_email": "zzz_test_morgan.hale@acme-corp.example",
+  "to_name": "zzz_TEST_Morgan Hale",
+  "from_email": "zzz_test_sender@outbound-sender.example",
+  "sequence_number": 1,
+  "subject": "zzz_TEST_ quick question about your pipeline reporting",
+  "bounce_type": "hard",
+  "bounce_code": "550",
+  "bounce_reason": "550 5.1.1 The email account that you tried to reach does not exist",
+  "lead_data": {
+    "id": 700001,
+    "first_name": "zzz_TEST_Morgan",
+    "last_name": "Hale",
+    "email": "zzz_test_morgan.hale@acme-corp.example",
+    "company_name": "zzz_TEST_Acme Corp",
+    "website": "https://acme-corp.example",
+    "custom_fields": {
+      "job_title": "Director of Revenue Operations",
+      "linkedin": "https://linkedin.example/in/zzz-test-morgan-hale"
+    }
+  },
+  "client_id": null,
+  "app_url": "https://app.smartlead.example/app/email-campaign/900001/analytics"
+}

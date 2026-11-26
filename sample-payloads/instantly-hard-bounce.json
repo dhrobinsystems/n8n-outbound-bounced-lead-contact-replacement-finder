@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-11-26T08:51:03.000Z",
+  "event_type": "email_bounced",
+  "workspace": "00000000-0000-4000-8000-000000000001",
+  "campaign_id": "00000000-0000-4000-8000-0000000000c1",
+  "campaign_name": "zzz_TEST_Marketing Leaders Q4",
+  "lead_email": "zzz_test_avery.quinn@zenith-analytics.example",
+  "email_account": "zzz_test_sender@outbound-sender.example",
+  "step": 2,
+  "variant": 1,
+  "is_first": false,
+  "firstName": "zzz_TEST_Avery",
+  "lastName": "Quinn",
+  "companyName": "zzz_TEST_Zenith Analytics",
+  "jobTitle": "VP of Marketing",
+  "website": "https://zenith-analytics.example",
+  "bounce_type": "hard",
+  "bounce_code": "550",
+  "bounce_reason": "550 5.1.1 Recipient address rejected: user unknown in virtual mailbox table"
+}
